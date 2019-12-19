@@ -44,8 +44,8 @@ DATA_FLIST:
   ]
   # http://places2.csail.mit.edu/, please download the high-resolution dataset and use RANDOM_CROP: True
   places2: [
-    '/home/nadim/Code_Ground/GatedConvolution-master/flist/train.txt',
-    '/home/nadim/Code_Ground/GatedConvolution-master/flist/eval.txt'
+    './flist/train.txt',
+    './flist/eval.txt'
   ]
   # http://www.image-net.org/, please use RANDOM_CROP: True
   imagenet: [

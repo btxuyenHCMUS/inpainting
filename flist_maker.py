@@ -14,11 +14,11 @@ import fnmatch
 # Change directories here
 ########################################################################################################################
 
-root_train = '/home/nadim/Code_Ground/places2_hr/train_large'
-root_val = '/home/nadim/Code_Ground/places2_hr/val_large'
+root_train = './data/train'
+root_val = './data/val'
 
-train_filename = '/home/nadim/Code_Ground/untitled_01/flist/train.txt'
-validation_filename = '/home/nadim/Code_Ground/untitled_01/flist/eval.txt'
+train_filename = './flist/train.txt'
+validation_filename = './flist/eval.txt'
 
 ########################################################################################################################
 # Image Lister
@@ -37,8 +37,8 @@ def dataset_files(rootdir, pattern):
 ########################################################################################################################
 # If image format is not 'jpg', change accordingly.
 ########################################################################################################################
-train = dataset_files(root_train, '*.jpg')
-validation = dataset_files(root_val, '*.jpg')
+train = dataset_files(root_train, '*.png')
+validation = dataset_files(root_val, '*.png')
 
 
 ########################################################################################################################
